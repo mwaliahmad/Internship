@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Honey Store</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="../static/images/logo.png"
+        alt="logo"
+        width="130"
+        height="100"
+      />
+
+      <h1>Honey Store</h1>
+
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </header>
+    <hr />
+
+    <main>
+      <form method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required />
+        <br /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <br /><br />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+        <br /><br />
+
+        <label for="role">Role:</label>
+        <select name="role" id="role">
+          <option value="user">User</option>
+          <option value="admin">Admin</option>
+        </select>
+        <br /><br />
+
+        <input type="radio" name="gender" id="male" />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" />
+        <label for="female">Female</label>
+        <br /><br />
+
+        <input type="checkbox" name="rememberMe" id="rememberMe" />
+        <label for="rememberMe">Remember Me</label>
+        <br /><br />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </main>
+
+    <footer>
+      <p>
+        For more information, follow us on
+        <a href="http://www.instagram.com" target="_blank">
+          <img
+            src="../static/images/fblogo.png"
+            alt="FB Logo"
+            width="50"
+            height="50"
+          />
+        </a>
+        <a href="https://www.facebook.com/" target="_blank"
+          ><img
+            src="../static/images/instalogo.png"
+            alt="Insta Logo"
+            width="50"
+            height="50"
+        /></a>
+      </p>
+    </footer>
+  </body>
+</html>
